@@ -43,11 +43,13 @@ We can execute the file [create_database_devcamp_university.sql](create_database
 
 We play with some tools to generate random data:
 Online tools as:
+
 - https://generatedata.com/
 - https://filldb.info/
 - https://www.jsondataai.com/
 
 and explore node modules as Faker
+
 - https://www.npmjs.com/package/@faker-js/faker
 
 In our case, we use jsondataai online tool to generate the Courses table with titles and descriptions.
@@ -68,3 +70,5 @@ We have included a separate sql script for each query:
 - [The top grades for each student](script_2_students_top_grades.sql)
 
 -[Sort students by the courses that they are enrolled in](script_3_students_courses_enrolled.sql)
+
+-[summary report of courses and their average grades](script_4_summary_courses_grade.sql)
