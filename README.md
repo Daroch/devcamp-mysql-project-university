@@ -66,3 +66,5 @@ We have included a separate sql script for each query:
 - [The average grade that is given by each professor](script_1_professors_average_grade.sql)
 
 - [The top grades for each student](script_2_students_top_grades.sql)
+
+-[Sort students by the courses that they are enrolled in](script_3_students_courses_enrolled.sql)
