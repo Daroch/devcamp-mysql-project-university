@@ -64,3 +64,5 @@ All the example data can be imported executing th file: [insert_data_devcamp_uni
 We have included a separate sql script for each query:
 
 - [The average grade that is given by each professor](script_1_professors_average_grade.sql)
+
+- [The top grades for each student](script_2_students_top_grades.sql)
