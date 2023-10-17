@@ -55,9 +55,9 @@ and explore node modules as Faker
 In our case, we use jsondataai online tool to generate the Courses table with titles and descriptions.
 We have populated the rest of tables by using faker library, keep in mind our total number of Students, Professors, and Courses to adjust the correct ranges of our randomized data.
 
-We will imported the json files with data generated in MySQL Workbench with his data import wizard options.
+We will imported the json files with data generated in MySQL Workbench with its data import wizard options.
 
-All the example data can be imported executing th file: [insert_data_devcamp_university.sql](insert_data_devcamp_university.sql)
+All the example data can be imported executing the file: [insert_data_devcamp_university.sql](insert_data_devcamp_university.sql)
 
 ---
 
@@ -69,8 +69,8 @@ We have included a separate sql script for each query:
 
 - [The top grades for each student](script_2_students_top_grades.sql)
 
--[Sort students by the courses that they are enrolled in](script_3_students_courses_enrolled.sql)
+- [Sort students by the courses that they are enrolled in](script_3_students_courses_enrolled.sql)
 
--[summary report of courses and their average grades](script_4_summary_courses_grade.sql)
+- [summary report of courses and their average grades](script_4_summary_courses_grade.sql)
 
--[Finding which student and professor have the most courses in common](script_5_courses_common.sql)
+- [Finding which student and professor have the most courses in common](script_5_courses_common.sql)
