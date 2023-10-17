@@ -72,3 +72,5 @@ We have included a separate sql script for each query:
 -[Sort students by the courses that they are enrolled in](script_3_students_courses_enrolled.sql)
 
 -[summary report of courses and their average grades](script_4_summary_courses_grade.sql)
+
+-[Finding which student and professor have the most courses in common](script_5_courses_common.sql)
