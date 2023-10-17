@@ -38,3 +38,21 @@ The bellow Class Diagram show database entities (tables) and their fields, with 
 ![Alt text](database_university_class_diagram.png)
 
 We can execute the file "create_database_devcamp_university.sql" to create the database and tables.
+
+### Populate Database.
+
+We play with some tools to generate random data:
+Online tools as:
+https://generatedata.com/
+https://filldb.info/
+https://www.jsondataai.com/
+
+and explore node modules as Faker
+https://www.npmjs.com/package/@faker-js/faker
+
+In our case, we use jsondataai online tool to generate the Courses table with titles and descriptions.
+We have populated the rest of tables by using faker library, keep in mind our total number of Students, Professors, and Courses to adjust the correct ranges of our randomized data.
+
+We will imported the json files with data generated in MySQL Workbench with his data import wizard options.
+
+All the example data can be imported executing th file: "insert_data_devcamp_university.sql" 
